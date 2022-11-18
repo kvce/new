@@ -1,0 +1,621 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?h1ica9');
+    src:  url('fonts/icomoon.eot?h1ica9#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?h1ica9') format('truetype'),
+      url('fonts/icomoon.woff?h1ica9') format('woff'),
+      url('fonts/icomoon.svg?h1ica9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+body {
+    font-family: 'icomoon';
+    background-color: rgb(245, 245, 245);
+}
+
+.num_one {
+    float: left;
+}
+
+.nav {
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: white;
+    background-color: rgb(255,165,0);
+    position: relative;
+    line-height: 30px;
+}
+
+.nav:hover {
+    background-color: rgba(0,0,0,70%);
+}
+
+.navarea2,.nav a:hover {
+    color: rgb(255,165,0);
+}
+
+.box .nav,.navarea,.navarea1,.navarea2,a {
+    color: white;
+}
+
+.navarea {
+    text-indent: 50px;
+    color: #fff;
+}
+
+.navarea1 {
+    position: absolute;
+    right: 160px;
+    top: 0px;
+    cursor: not-allowed;
+}
+
+.navarea2 {
+    height: 30px;
+    width: 100px;
+    background-color: rgba(127, 127, 127);
+    position: absolute;
+    right: 51.5px;
+    top: 0px;
+    text-align: center;
+}
+
+.navarea2 h1 {
+    float: left;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navraea2 h2 {
+    float: left;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.box {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* .box::before {
+    content: '';
+    display: table;
+    visibility: hidden;
+    height: 0;
+
+} */
+
+.header {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 3%);
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.header a:hover {
+    color: rgb(255,165,0);
+}
+
+.giflogo {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 50px; 
+    width: 50px; 
+    cursor: pointer; 
+    background-image: url(../images/logo.gif);
+    background-position: 0 0;
+    background-size: 50px 50px;   
+}
+
+.header .gif img:hover {                    
+    opacity: 0%;        
+}
+
+.gif { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 50px; 
+    width: 50px;
+    cursor: pointer;
+    opacity: 100%;  
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+.headerarea {
+    font-size: 14px;
+    position: absolute;
+    top: 15px;
+    left: 170px;
+}
+
+.headerarea a {
+    margin: 0 0 0 25px;
+    color: #000000;
+}
+
+.headerarea1 {
+    font-family: 'icomoon';
+    position: relative;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+
+.headerarea1 input {
+    height: 30px;
+    width: 250px;
+    font-size: 8px;
+    color: #909090;
+    border: 1px solid rgba(0, 0, 0, 15%);
+}
+
+.headerarea2 {
+    height: 31px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    right: 3px;
+}
+
+.headerarea2 a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-left: 1px solid rgba(0, 0, 0, 15%);
+}
+
+.headerarea2 h1 {
+    color: #808080;
+    font-size: 16px;
+    opacity: 80%;
+}
+
+.headerarea2 h1:hover {
+    opacity: 100%;
+}
+
+.nav1 {
+    height: 430px;
+    width: 200px;
+    background-color: rgb(255,165,0);
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.nav1 a::after {
+    content: '>';
+    display: table;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    color: #FFF;
+    opacity: 90%;
+}
+
+.nav1 a {
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    text-indent: 20px;
+    background-color: rgb(255,165,0);
+}
+
+.nav1 div {
+    position: absolute;
+    top: 15px;
+}
+
+.nav1 a:hover {
+    background-color: rgba(255, 0, 0, 60%);
+}
+
+.poster {
+    overflow: hidden;
+    position: absolute;
+    left: 200px;
+    top: 56px;
+    height: 430px;
+    width: 880px;
+    line-height: 50px;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;    
+}
+
+
+.narrow li:nth-of-type(1)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 430px;
+    width: 880px;
+    display: inline-block;
+    background-image:  url(../images/poster1.jpg);
+    background-position: -60px 0;
+    background-size: 1080px auto;
+    animation: test 20s ease 5s infinite;
+}
+
+.narrow li:nth-of-type(2)::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 430px;
+    width: 880px;
+    display: inline-block;
+    background-image:  url(../images/poster2.jpg);
+    background-position: -100px 0;
+    background-size: auto 430px;
+    /* animation: test1 25s ease 0s infinite; */
+}
+
+/* .narrow li:nth-of-type(3)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 430px;
+    width: 880px;
+    display: inline-block;
+    background-image:  url(../images/poster3.jpg);
+    background-position: -500px 0;
+    background-size: auto 430px;
+    animation: test2 30s ease 0s infinite;
+} */
+
+.narrow {
+    z-index: -5;
+    position: relative;
+    display: inline-block;
+    height: 430px;
+    width: 880px;
+    cursor: move;
+}
+
+@keyframes test {
+    from {left: 0px;}
+    to {left: -1500px;}
+}
+
+/* @keyframes test1 {
+    from {left: 1500px;}
+    to {left: -1500px;}
+} */
+
+/* @keyframes test2 {
+    from {left: 4000px;}
+    to {left: -1500px;}
+} */
+
+.poster .circular {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+    background-color: rgba(0,0,0,25%);
+}
+
+.poster .circular1 {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+    background-color: rgba(0,0,0,25%);
+}
+
+.poster .dot {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.poster .dot span {
+    float: left;
+    border-radius: 50% 50%;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,25%);
+    background-color: #fff;
+}
+
+.poster:hover {
+    cursor: move;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,10%);
+}
+
+.boxbottom {
+    position: relative;
+}
+
+.bottom {
+    font-family: 'icomoon';
+    position: relative;
+    width: 200px;
+    height: 150px;
+    font-size: 8px;
+    text-align: center;
+    line-height: 23px;
+
+    /* background-color: #00ff00; */
+}
+
+.bottom span h2 {
+    margin-top: 20px;
+    font-size: 22px;
+} 
+
+.bottom span a {
+    opacity: 85%;
+    font-size: 12px;
+}
+
+.bottom a:hover {
+    opacity: 100%;
+}
+
+.bottom span:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,10%); 
+}
+
+.bottom span:nth-child(-n+2) {
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 0 1px 0 0;
+    background-position: 0 0;
+    background-size: 20px 20px;
+    background-color: rgb(255,165,0);
+}
+
+.bottom span:nth-child(3) {
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 0 0px 0 0;
+    background-color: rgb(255,165,0);
+}
+
+.bottom span {
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 1px 1px 0 0;
+    background-color: rgb(255,165,0);
+}
+
+.bottom span:last-child {
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 1px 0px 0 0;
+    background-color: rgb(255,165,0);
+}
+
+.posterbox a:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 10%);
+}
+
+.kvce:hover {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translate;
+}
+
+.posterbox a {
+    display: inline-block;
+    cursor: move;
+    height: 150px;
+    width: 287px;
+    background-color: transparent;
+}
+
+.poster1 {
+    height: 150px;
+    width: 287px;
+    margin-left: 6px;
+    background-image: url(../images/poster2.jpg);
+    background-size: auto 150px;
+    background-position: 150px auto;
+    background-color: rgba(0, 0, 0, 30%);
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.poster2 {
+    height: 150px;
+    width: 287px;
+    margin-left: 6px;
+    background-image: url(../images/poster3.jpg);
+    background-size: auto 150px;
+    background-position: -140px 0px;
+    background-color: rgba(0, 0, 0, 30%);
+    position: absolute;
+    top: 0;
+    left: 493px;
+}
+
+.poster3 {
+    height: 150px;
+    width: 287px;
+    margin-left: 6px;
+    background-image: url(../images/poster4.jpg);
+    background-position: 0 0;
+    background-size: auto 160px;
+    background-color: rgba(0, 0, 0, 30%);
+    position: absolute;
+    top: 0;
+    left: 786px;
+}
+
+.banner {
+    height: 60px;
+    margin-top: 6px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    background-color: #d0d0d0;
+}
+
+.production {
+    position: relative;
+    height: 230px;
+    height: 466px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.lump {
+    float: left;
+    width: 211.2px;
+    height: 230px;
+    font-size: 14px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+    background-color: rgba(0,0,0,25%);
+}
+
+.lump:hover {
+    box-shadow: 0 0 5px 0.5px rgba(0,0,0,50%);
+    background-color: rgba(255,165,0,100%);
+}
+
+.lump h4 {
+    font-weight: 500;
+    margin: 6px 0 6px 0;
+}
+
+.lump img {
+    display: block;
+    width: 265.5px;
+    height: 180px;
+    background-color: #999999;
+}
+
+.base {
+    display: block;
+    width: 1200px;
+    height: 45px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fh {
+    text-align: center;
+}
+
+.fh ul:nth-child(n) {
+    color:rgb(97, 97, 97);
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 6px;
+}
+
+.fh ul h2 {
+    float: left; 
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    margin-left: 45px;
+}
+
+.fh ul h3 {
+    float: left;
+    font-size: 16px;
+}
+
+.fh ul li {
+    float: left;
+    height: 45px;
+    width: 235.6px;
+    border-right: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.footer {
+    float: left;
+    text-align: center;
+    background-color: #999999;
+    background-color: rgba(0,0,0,0%);
+    line-height: 40px;
+}
+
+.footer ul li {
+    color: rgba(117, 117, 117);
+}
+
+.footer ul li:first-child {
+    color: rgb(66, 66, 66);
+}
+
+.footer ul {
+    float: left;
+}
+
+.footer ul:nth-of-type(-n+5) {
+    width: 176px;
+    height: 200px;
+    background-color: rgba(0,0,0,0%);
+}
+
+.footer ul:last-of-type {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0,0,0,0%);
+}
+
+.footer ul li:first-of-type {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.footer ul li:nth-of-type(n+2) {
+    font-size: 11px;
+    text-align: left;
+    text-indent: 58px;
+}
+
+.footer ul:last-child li:nth-child(n+2) {
+    text-align: center;
+    text-indent: 0;
+}
+
+.footer ul:last-child li:last-child {
+    text-align: center;
+    text-indent: 0px;
+}
+
+.line {
+    height: 251px;
+    background-color: #FFF;
+}
+/* 底部背景 */
